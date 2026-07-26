@@ -1,0 +1,11 @@
+# requirements.yaml — EXTRA conda packages for lucianolabs, layered on the umbrella's
+# requirements_base.yaml (the shared base). Managed automatically by claude.sh:
+#   ./claude.sh lucianolabs        # start a session — auto-creates/syncs the "claude-lucianolabs"
+#                            # env (base + this file) and runs the session inside it
+#   ./claude.sh env lucianolabs    # just create/update this env without starting a session
+# Add this project's Python deps under dependencies: (conda) or a pip: list. Commit this
+# file so the env reproduces on every machine. See the CLAUDE.md "Environment" section.
+name: claude-lucianolabs
+channels:
+  - conda-forge
+dependencies: []
